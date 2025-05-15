@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+    background-color: black;
+}
+.header {
+    background-color: rgb(2, 2, 172);
+    width: 600px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 15px;
+    color: white;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.menu{
+    background-color: rgb(61, 0, 153);
+    border-radius: 15px;
+    margin: auto;
+    color: white;
+    width: 600px;
+    padding: 15px;
+    height: 350px;
+}
+.arms{
+    background-color: white;
+    color: black;
+}
+.item{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 1px;
+}
