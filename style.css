@@ -1,36 +1,46 @@
-body{
+.header{
     text-align: center;
-    background-color: black;
-}
-.header {
-    background-color: rgb(2, 2, 172);
-    width: 600px;
+    display: flex;
+    border: solid 2px black;
+    padding: 15px;
+    width: 400px;
     border-radius: 15px;
     margin: auto;
-    padding: 15px;
-    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 15px grey;
 }
-.logo{
-    width: 100px;
-    height: 100px;
+img{
+    margin-right: 17px;
+    margin-left: 20px;
 }
 .menu{
-    background-color: rgb(61, 0, 153);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    padding: 15px;
+    width: 400px;
     border-radius: 15px;
     margin: auto;
-    color: white;
-    width: 600px;
-    padding: 15px;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 15px grey;
     height: 350px;
 }
-.arms{
-    background-color: white;
-    color: black;
+button{
+    padding: 30px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    background-color:aqua;
+    box-shadow: 2px 2px 15px grey;
 }
-.item{
-    background-color: white;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 15px;
-    width: 1px;
+body{
+    background-color: rgb(213, 237, 255);
 }
